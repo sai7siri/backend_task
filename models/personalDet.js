@@ -12,12 +12,12 @@ const personalSchema = new mongoose.Schema({
 
   dob: {
     type: Date,
-    default: Date.now
+      required : true
   },
 
   anniversary: {
     type: Date,
-    default: Date.now
+    required : true
   },
 
   customerProfile: {

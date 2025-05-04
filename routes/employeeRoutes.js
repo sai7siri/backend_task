@@ -6,7 +6,7 @@ import {personalDetail , eductionalDetail} from "../controllers/employeCont.js"
 
 routes.post('/personaldet' , personalDetail);
 
-routes.post('/educationaldet' , eductionalDetail);
+routes.post('/educationaldet/:id' , eductionalDetail);
 
 
 export default routes;
